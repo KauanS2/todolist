@@ -16,6 +16,10 @@ export const styles = StyleSheet.create({
   text: {
     color: "#F2F2F2",
   },
+  textUnder: {
+    color: "#808080",
+    textDecorationLine: "line-through",
+  },
   buttonDelete: {},
   buttonCheck: {},
 });

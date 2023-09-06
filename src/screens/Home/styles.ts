@@ -42,6 +42,9 @@ export const styles = StyleSheet.create({
     borderRadius: 6,
     backgroundColor: "#1E6F9F",
   },
+  buttonHover: {
+    backgroundColor: "gray",
+  },
   textButton: {
     color: "#FFF",
     fontSize: 20,
