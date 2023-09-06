@@ -1,5 +1,7 @@
 import { Home } from "./src/screens/Home";
 
-export default function App() {
+const App = () => {
   return <Home />;
 }
+
+export default App

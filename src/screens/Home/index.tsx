@@ -10,8 +10,8 @@ import {
 import { styles } from "./styles";
 import { WithoutTask } from "../../components/WithoutTask";
 import { Task } from "../../components/Task";
-import { PlusCircle } from "phosphor-react";
 import { useState } from "react";
+import { PlusCircle } from 'phosphor-react-native'
 
 interface TaskProps {
   content: string;
@@ -81,13 +81,14 @@ export function Home() {
         </View>
         <View>
           <View style={styles.tasksInfo}>
-            <Text style={styles.textCreate}>
-              Criadas <Text style={styles.info}>{tasks.length}</Text>
-            </Text>
-            <Text style={styles.textConclued}>
-              Concluidas{" "}
+            <View style={styles.cont}>
+              <Text style={styles.textCreate}>Criadas</Text>
+              <Text style={styles.info}>{tasks.length}</Text>
+            </View>
+            <View style={styles.cont}>
+              <Text style={styles.textConclued}>Concluidas</Text>
               <Text style={styles.info}>{taskIsComplete.length}</Text>
-            </Text>
+            </View>
           </View>
 
           <FlatList

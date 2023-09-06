@@ -9,7 +9,7 @@ export function WithoutTask() {
         source={require("../../../assets/clip.png")}
       />
       <Text style={styles.textOne}>Você ainda não tem tarefas cadastradas</Text>
-      <Text style={styles.textTwo}>
+      <Text style={styles.textTwo}>r
         Crie tarefas e organize seus itens a fazer
       </Text>
     </View>

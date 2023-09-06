@@ -60,6 +60,10 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 16,
   },
+  cont: {
+    flexDirection: 'row',
+    gap: 4,
+  },
   info: {
     justifyContent: "center",
     alignContent: "center",

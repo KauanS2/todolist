@@ -1,6 +1,6 @@
 import { Pressable, Text, View } from "react-native";
-import { Circle, Trash, CheckCircle } from "phosphor-react";
 import { styles } from "./styles";
+import { Circle, Trash, CheckCircle } from 'phosphor-react-native'
 
 interface TaskProps {
   content: string;
@@ -17,7 +17,7 @@ export function Task({ content, onRemove, onComplete, isComplete }: TaskProps) {
         </Pressable>
       ) : (
         <Pressable onPress={onComplete} style={styles.buttonCheck}>
-          <Circle color="#4EA8DE" size={20} />
+          <Circle   color="#4EA8DE" size={20} />
         </Pressable>
       )}
       {isComplete ? (
